@@ -1,6 +1,13 @@
 # st_js_ecmascript278
 
 # Jestのテスト
+st_js_ecmascript278/
+├── maintest.js (ブラウザでもJestでも動く)
+├── tests/
+│   └── maintest.test.js
+├── package.json
+├── jest.config.json
+└── node_modules/ (.gitignore対象)
 ## テストコードはJestフレームワークを使用
 - npm init -y (package.jsonを生成)
 - npm install --save-dev jest (Jestインストール)
