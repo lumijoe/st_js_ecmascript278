@@ -47,3 +47,6 @@ Snapshots:   0 total
 Time:        0.261 s
 Ran all test suites.
 のように出力されればOK
+
+## git pushするときは.gitignoreでnode_modules/を対象にする
+- git cloneの際はnpm install で生成できる
