@@ -14,5 +14,7 @@ function testAdd() {
 
 testAdd();
 
-// Jestテスト用
-module.exports = { add };
+// テスト用：Node.js環境の場合のみexport（ブラウザではスキップ）
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { add };
+}
