@@ -1,0 +1,23 @@
+{
+  "name": "st_js_ecmascript278",
+  "version": "1.0.0",
+  "description": "## テストコードはJestフレームワークを使用 - npm init -y (package.jsonを生成) - npm install --save-dev jest (Jestインストール) - jsonファイルのscriptsセクションに対象コードを追加",
+  "main": "main03.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumijoe/st_js_ecmascript278.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lumijoe/st_js_ecmascript278/issues"
+  },
+  "homepage": "https://github.com/lumijoe/st_js_ecmascript278#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
