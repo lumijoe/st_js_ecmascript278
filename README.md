@@ -20,8 +20,10 @@
 - ターミナルで　touch jest.config.json　を実行
 
 ## maintest.jsをテストしたい時
-- maintest.test.js　ファイルを作成
-- 期待されるテストコードを記述し
+- testsフォルダを作成
+- maintest.test.js　ファイルを作成（project/tests/maintest.test.js）
+- 期待されるテストコードを記述し(// tests/maintest.test.js
+const { add } = require('../maintest');など。。。)
 - npm test　を実行
 
 ## 結果

@@ -1,5 +1,5 @@
-// maintest.test.js
-const { add } = require('./maintest');
+// tests/maintest.test.js
+const { add } = require('../maintest');
 
 describe('add関数のテスト', () => {
   test('2 + 3 は 5 を返す', () => {
