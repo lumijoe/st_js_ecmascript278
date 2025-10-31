@@ -1,6 +1,6 @@
 # st_js_ecmascript278
 
-# Jestのテスト
+# テストコード:Jestを使用
 st_js_ecmascript278/
 ├── maintest.js (ブラウザでもJestでも動く)
 ├── tests/
